@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 Dado('que acesso a página Login') do
   find('span', text: 'Minha conta').click
   find('a', text: 'Acessar').click
